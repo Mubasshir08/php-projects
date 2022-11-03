@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #766ecc;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li{
+    /* background-color: rgb(0, 60, 255); */
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 600;
+    padding: 10px;
+    margin: 15px;
+    margin-right: 20px;
+}
+
+form{
+    width: 450px;
+    height: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 10px;
+}
+
+input{
+    width: 75%;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+form button{
+    background-color: green;
+    padding: 15px 30px;
+    border: none;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 15px;
+    
+}
+
+.form-div{
+    position: relative;
+    top: 20%;
+}
+
+input:focus{
+    outline: none;
+    font-size: 17px;
+}
+
+textarea{
+    width: 35%;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    resize: none;
+}
+
+.user_profile{
+    background-color: rgb(187, 187, 187);
+    width: 75%;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+}
+
+.user_info{
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.user_bio{
+    display: inline-block;
+    /* border-left: 1px red solid; */
+    width: 45%;
+    /* background-color: aqua; */
+    text-align: left;
+    position: relative;
+    top: -25px;
+
+}
+
+.user_img{
+    width: 45%;
+    display: inline-block;
+    /* background-color: red; */
+}
+
+.user_img img{
+    border-radius: 50%;
+    width: 20%;
+}
+
+.post_area{
+    text-align: center;
+}
+
+.post_area button{
+    padding: 15px 30px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.post_area button:hover{
+    background-color: green;
+    color: #fff;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+}
